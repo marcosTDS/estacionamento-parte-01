@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFC107;
+}
+
+.codigo {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 87%;
+}
+
+.texto {
+    width: 255px;
+    margin: 0 auto;
+    margin-top: -5%;
+}
+.input {
+    width: 255px;
+    margin: 0 auto;
+
+}
+
+input {
+    width: 247px;
+    height: 38px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.botao {
+    width: 190px;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+
+button {
+    width: 183px;
+    height: 41px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #454545;
+    color: #FFC107;
+}
+
+a {
+    text-decoration: none;
+    color: #FFC107;
+}

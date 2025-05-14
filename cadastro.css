@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FFC107;
+}
+
+.registro {
+   width: 250px;
+   margin: 0 auto;
+   margin-top: 60%;
+}
+
+.email {
+    margin-top: 7%;
+}
+
+.senha {
+    margin-top: 7%;
+}
+
+label {
+    font-size: 25px;
+    font-family: poppins;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+    width: 247px;
+    height: 38px;
+   
+}
+
+.botao {
+    width: 190px;
+    margin: 0 auto;
+    margin-top: 15%;
+}
+
+button {
+    width: 183px;
+    height: 41px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #454545;
+    color: #FFC107;
+}
+
+a {
+    text-decoration: none;
+    color: #FFC107;
+}
+
