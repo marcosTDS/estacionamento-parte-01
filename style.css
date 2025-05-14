@@ -1,68 +1,77 @@
 body {
+    margin: 0;
+    padding: 0;
     background: #FFC107;
 }
 
 .logo {
-    width: 150px;
-    margin: auto;
-    margin-top: 30%;
+    width: 250px;
+    margin: 0 auto;
 }
 
-.letreiro {
-    width: 20px;
-    margin: auto;
-    margin-top: -75px;
-}
-
-h1 {
-    margin-top:-25px;
+img {
+    width: 250px;
+    height: 350px;
 }
 
 .login {
-    width: 250px;
-    margin: auto;
-    font-size: 22px;
-    margin-top: 15%;
+     width: 300px;
+    margin: 0 auto;
 }
 
 .senha {
-    width: 250px;
-    margin: auto;
-    font-size: 22px;
-    margin-top: 5%;
+     width: 300px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
 
+label {
+    font-size: 35px;
 }
 
 input {
+    width: 300px;
+    height: 40px;
     border: none;
-    margin-top: 3%;
-    border-radius: 8px;
-    width: 250px;
-    height: 35px;
-    font-size: 26px;
+    border-radius: 10px;
 }
 
-button {
-    background: #454545;
-    border: none;
-    color: #FFC107;
-    width: 100px;
-    height: 30px;
-    font-size: 20px;
-    border-radius: 8px;
-    display: block;
-    margin: auto;
-    margin-top: 15%; 
+.entrar {
+   font-size: 30px;
+   width: 200px;
+   height: 45px;
+   border: none;
+   border-radius: 10px;
+   background: #454545;
 }
 
 .cadastrar {
-    width: 140px;
+   font-size: 30px;
+   width: 250px;
+   height: 45px;
+   border: none;
+   border-radius: 10px;
+   background: #454545;
+}
+
+.botao-entrar {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+.botao-cadastrar {
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 12%;
+}
+
+h2 {
+    margin-left: 23px;
     margin-top: 10%;
 }
 
-.ou {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 10%;
+a {
+    text-decoration: none;
+    color: #FFC107;
 }
